@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: #edeef0;
+}
+.container{
+  max-width: 1240px;
+  margin: auto;
+}
+
+.app-wrapper{
+  display: grid;
+
+  grid-template-areas: 
+  "h h"
+  "n c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.app-wrapper-content {
+  grid-area: c;
+
+  width: 100%;
+  
+}
+
+.header {
+  grid-area: h;
+  background-color: #000;
+}
+
+.navbar {
+  grid-area: n;
+}

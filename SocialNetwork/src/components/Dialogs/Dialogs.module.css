@@ -1,0 +1,101 @@
+
+/* Навести здесь порядок */
+
+.dialogsItems a{
+	text-decoration: none;
+	color: #000;
+ 
+	padding-left: 25px;
+}
+
+.dialogs{
+	display: grid;
+	/* grid-template-rows: 60px 1fr; */
+	grid-template-columns: 2fr 10fr;
+	grid-gap: 10px;
+
+	font-size: 18px;
+
+
+
+	/* min-height: 500px; */
+
+}
+
+.dialogsItems{
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8;
+	overflow: hidden;
+
+	min-height: 500px;
+	padding: 15px;
+}
+
+.dialog{
+	margin: 10px 0;
+	font-size: 15px;
+}
+
+.messages{
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 1px 0 0 #d7d8db,
+	0 0 0 1px #e3e4e8;
+	overflow: hidden;
+
+	min-height: 500px;
+	padding: 15px;
+	padding-bottom: 60px;
+	position: relative;
+}
+
+.message{
+	margin: 10px 0;
+	word-wrap: break-word;
+	line-height: 22px;
+}
+
+.dialogsItems .active{
+	font-weight: 900;
+}
+
+.textInput {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	padding: 15px;
+	width: 100%;
+}
+
+.messageTextarea {
+	flex: 0.85;
+
+	padding: 8px 15px;
+	line-height: 22px;
+	font-size: 14px;
+
+	min-height: 40px;
+	max-height: 150px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	resize: none;
+
+	border-radius: 10px;
+	border: 1px solid #edeef0;
+}
+
+.messageTextarea:focus{
+	outline: none;
+}
+
+.messageButton{
+	flex: 0.1;
+
+	height: 40px;
+}

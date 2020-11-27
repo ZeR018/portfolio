@@ -1,0 +1,41 @@
+
+
+.nav {
+	/* font-family: 'Roboto', sans-serif; */
+	line-height: 2.5;
+	font-size: 16px;
+	padding: 10px 0;
+
+	display: block;
+	position: relative;
+
+	/* border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4e8; */
+
+	height: 100%;
+}
+
+.link {
+	color: #285473;
+}
+
+.item {
+	padding-left: 70px;
+	display: block;
+	text-decoration: none;
+	color: #285473;
+}
+
+.item:hover {
+	background: #d8e0f0;
+}
+.item:active
+.item:visited {
+	color: #285473;
+	text-decoration: none;
+}
+
+a.activeLink{
+	/* background: #d8e0f0; */
+}

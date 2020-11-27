@@ -1,0 +1,137 @@
+*{
+	box-sizing: border-box;
+}
+.users {
+	border-radius: 5px;
+	background-color: #fff;
+	box-shadow: 0 1px 0 0 #d7d8db,
+		0 0 0 1px #e3e4e8;
+	overflow: hidden;
+
+	min-height: 500px;
+
+	padding: 15px;
+	width: 100%;
+	max-width: 1025px; 
+
+	position: relative;
+}
+
+.userAva {
+	width: 80px;
+	height: 80px;
+
+	border-radius: 50%;
+
+	margin: 0 10px;
+}
+
+.user{
+	margin: 15px;
+	border-bottom: 1px solid #e0dcdc;
+
+	position: relative;
+	background-color: #fff;
+
+	display: flex;
+}
+
+.notInfo{
+	width: 100px;
+
+	margin: 10px;
+}
+
+.info{
+	position: relative;
+	width: 100%;
+
+	padding: 15px;
+
+	display: flex;
+	justify-content: space-between;
+
+	color: #2a5885;
+	font-size: 20px;
+
+}
+
+.userName{
+	font-weight: 900;
+
+	max-width: 450px;
+	max-height: 40px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+}
+
+.userStatus{
+	font-weight: 500;
+
+
+	margin-top: 10px;
+
+	max-width: 450px;
+	max-height: 40px;
+}
+
+.info span {
+	display: block;
+}
+
+
+.followButton{
+	width: 100px;
+	margin-top: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border: none;
+
+	font-size: 16px;
+
+	color: #fff;
+	background-color: #336bab;
+	border-radius: 4px;
+}
+
+.followButton:hover{
+	background-color: #5181b8;
+}
+
+.followButton:focus{
+	border: none;
+	box-shadow: none;
+	outline: none;
+
+	background-color: #144c8c;
+	transform: translate(0, 1px);
+}
+
+
+.locationInfo{
+	font-weight: 700;
+	text-align: right;
+}
+
+.country{
+	margin-bottom: 10px;
+}
+
+.selectPage {
+	font-weight: 900;
+}
+
+.spansContainer span {
+	cursor: pointer;
+
+	padding: 1px;
+
+	word-wrap: break-word;
+
+	/* word-wrap: none;
+	overflow: hidden;
+	text-overflow: ellipsis; */
+}
+
+

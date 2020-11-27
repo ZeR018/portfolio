@@ -1,0 +1,33 @@
+
+.header_img {
+	height: 60px;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.loginBlock a,
+.loginBlock a:hover,
+.loginBlock a:active,
+.loginBlock a:visited {
+	color: #fff;
+}
+
+.loginBlock{
+	line-height: 60px;
+	margin-right: 20px;
+	color: #fff;
+}
+
+.loginNav{
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.loginNav:hover{
+	text-decoration: underline;
+}
